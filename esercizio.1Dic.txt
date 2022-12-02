@@ -1,0 +1,14 @@
+
+--select * from impiegato where eta>29-- a
+--select * from impiegato where RedditoMensile>800--b
+--select * from impiegato where DETRAZIONE =1--c
+--select * from impiegato where DETRAZIONE =0--D
+--select * from impiegato where Cognome  like 'a%' order by Cognome asc --E
+--select count(*) as totaleImpiegati from impiegato--F
+--select SUM(RedditoMensile)as totaleRedditi FROM impiegato--G
+--select avg(RedditoMensile) as MediaRedditi from impiegato--H
+--select max(RedditoMensile) as MaxReddito FROM IMPIEGATO-- i
+--select min (RedditoMensile) as MinReddito FROM IMPIEGATO--j
+--select impiegato.Cognome,impiegato.Nome,impiego.DataAssunzione from impiegato inner join  impiego on impiegato.IDimpiegato=impiego.IDimpiego
+--where DataAssunzione between '2022-01-01'and'2022-12-31'--k
+--select avg(Eta) as MediaEta from impiegato--M
